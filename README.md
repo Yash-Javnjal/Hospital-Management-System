@@ -65,8 +65,7 @@ Make sure you have:
 **Create a PostgreSQL database named hospitaldb with the following tables:**
 
 ```sql
-Copy
-Edit
+
 CREATE TABLE doctor (
     dName VARCHAR(100) PRIMARY KEY,
     speciality VARCHAR(100) NOT NULL
@@ -86,8 +85,7 @@ CREATE TABLE patient (
 
 # Project Structure
 ```graphql
-Copy
-Edit
+
 com/yash/
 ├── DBConnection.java       # Database connection utility class
 ├── Doctor.java             # Model & DAO class for Doctor
@@ -105,29 +103,23 @@ com/yash/
 -**Configure PostgreSQL credentials in DBConnection.java:**
 
 ```java
-Copy
-Edit
+
 private static final String URL = "jdbc:postgresql://localhost:5432/hospitaldb";
 private static final String USER_NAME = "postgres";
 private static final String PASSWD = "your_password";
-Build the project:
 ```
 
 ---
 
 ```bash
-Copy
-Edit
 mvn clean install
-Run the application:
 ```
 ----
 
 ```bash
-Copy
-Edit
+
 java -cp target/hospital-management-system-1.0-SNAPSHOT.jar com.yash.App
-**Use the menu options to manage doctors and patients.**
+**//Use the menu options to manage doctors and patients.**
 ```
 ----
 
@@ -139,5 +131,8 @@ java -cp target/hospital-management-system-1.0-SNAPSHOT.jar com.yash.App
 
 Enjoy managing your hospital with HOSPITAL MANAGEMENT SYSTEM! 🚑💉
 
-# Image for Reference
+# Image for Reference!
+
+[Screenshot 2025-07-10 010707](https://github.com/user-attachments/assets/4ebcd737-f9de-427c-9735-8742738b8239)
+
 
