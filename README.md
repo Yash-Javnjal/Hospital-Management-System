@@ -6,7 +6,10 @@
 
 ---
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 846718022bc8450b929038f8610ae493a24c855f
 The **HOSPITAL MANAGEMENT SYSTEM** is a **console-based application** built using **CORE JAVA**, **JDBC**, and **POSTGRESQL**. It allows users to perform various operations to manage doctor and patient records stored in a PostgreSQL database. The application provides an **intuitive MENU-DRIVEN INTERFACE** for seamless hospital administration.  
 
 ---
@@ -64,8 +67,7 @@ Make sure you have:
 **Create a PostgreSQL database named hospitaldb with the following tables:**
 
 ```sql
-Copy
-Edit
+
 CREATE TABLE doctor (
     dName VARCHAR(100) PRIMARY KEY,
     speciality VARCHAR(100) NOT NULL
@@ -81,7 +83,10 @@ CREATE TABLE patient (
     FOREIGN KEY (assiDoc) REFERENCES doctor(dName)
 );
 ```
+<<<<<<< HEAD
 
+=======
+>>>>>>> 846718022bc8450b929038f8610ae493a24c855f
 ---
 
 # Project Structure
@@ -104,14 +109,25 @@ com/yash/
 -**Configure PostgreSQL credentials in DBConnection.java:**
 
 ```java
+<<<<<<< HEAD
 private static final String URL = "jdbc:postgresql://localhost:5432/hospitaldb";
 private static final String USER_NAME = "postgres";
 private static final String PASSWD = "your_password";
+=======
+
+private static final String URL = "jdbc:postgresql://localhost:5432/hospitaldb";
+private static final String USER_NAME = "postgres";
+private static final String PASSWD = "your_password";
+```
+
+---
+>>>>>>> 846718022bc8450b929038f8610ae493a24c855f
 
 ```
 
 ---
 ```bash
+<<<<<<< HEAD
 Build the project:
 mvn clean install
 Run the application:
@@ -123,16 +139,30 @@ Run the application:
 java -cp target/hospital-management-system-1.0-SNAPSHOT.jar com.yash.App
 ```
 **Use the menu options to manage doctors and patients.**
+=======
+mvn clean install
+```
+----
 
+```bash
+>>>>>>> 846718022bc8450b929038f8610ae493a24c855f
+
+java -cp target/hospital-management-system-1.0-SNAPSHOT.jar com.yash.App
+**//Use the menu options to manage doctors and patients.**
+```
+----
 
 
 # 📬 CONTACT
 **DEVELOPER: YASH JAVANJAL**
-**EMAIL: yashjavanjal@gmail.com**
-**GITHUB: YashJavanjal**
+**EMAIL: yashjavanjal2512@gmail.com**
+**GITHUB: Yash-Javnjal**
 
 Enjoy managing your hospital with HOSPITAL MANAGEMENT SYSTEM! 🚑💉
 
-# Image for Reference
+# Image for Reference!
+
+[Screenshot 2025-07-10 010707](https://github.com/user-attachments/assets/4ebcd737-f9de-427c-9735-8742738b8239)
+
 
 ![hospital](hospital.png)
