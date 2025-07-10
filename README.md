@@ -162,7 +162,4 @@ Enjoy managing your hospital with HOSPITAL MANAGEMENT SYSTEM! 🚑💉
 
 # Image for Reference!
 
-[Screenshot 2025-07-10 010707](https://github.com/user-attachments/assets/4ebcd737-f9de-427c-9735-8742738b8239)
-
-
 ![hospital](hospital.png)
