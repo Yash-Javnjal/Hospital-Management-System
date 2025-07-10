@@ -6,7 +6,6 @@
 
 ---
 
-## JAVA MAVEN POSTGRESQL JDBC
 
 The **HOSPITAL MANAGEMENT SYSTEM** is a **console-based application** built using **CORE JAVA**, **JDBC**, and **POSTGRESQL**. It allows users to perform various operations to manage doctor and patient records stored in a PostgreSQL database. The application provides an **intuitive MENU-DRIVEN INTERFACE** for seamless hospital administration.  
 
@@ -87,8 +86,7 @@ CREATE TABLE patient (
 
 # Project Structure
 ```graphql
-Copy
-Edit
+
 com/yash/
 ├── DBConnection.java       # Database connection utility class
 ├── Doctor.java             # Model & DAO class for Doctor
@@ -106,18 +104,15 @@ com/yash/
 -**Configure PostgreSQL credentials in DBConnection.java:**
 
 ```java
-Copy
-Edit
 private static final String URL = "jdbc:postgresql://localhost:5432/hospitaldb";
 private static final String USER_NAME = "postgres";
 private static final String PASSWD = "your_password";
-Build the project:
+
 ```
 
 ---
 ```bash
-Copy
-Edit
+Build the project:
 mvn clean install
 Run the application:
 ```
@@ -125,8 +120,6 @@ Run the application:
 ---
 
 ```bash
-Copy
-Edit
 java -cp target/hospital-management-system-1.0-SNAPSHOT.jar com.yash.App
 ```
 **Use the menu options to manage doctors and patients.**
@@ -142,3 +135,4 @@ Enjoy managing your hospital with HOSPITAL MANAGEMENT SYSTEM! 🚑💉
 
 # Image for Reference
 
+![hospital](hospital.png)
