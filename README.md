@@ -124,8 +124,8 @@ java -cp target/hospital-management-system-1.0-SNAPSHOT.jar com.yash.App
 
 # 📬 CONTACT
 **DEVELOPER: YASH JAVANJAL**
-**EMAIL: yashjavanjal@gmail.com**
-**GITHUB: YashJavanjal**
+**EMAIL: yashjavanjal2512@gmail.com**
+**GITHUB: Yash-Javnjal**
 
 Enjoy managing your hospital with HOSPITAL MANAGEMENT SYSTEM! 🚑💉
 
