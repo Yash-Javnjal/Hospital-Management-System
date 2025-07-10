@@ -6,10 +6,6 @@
 
 ---
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 846718022bc8450b929038f8610ae493a24c855f
 The **HOSPITAL MANAGEMENT SYSTEM** is a **console-based application** built using **CORE JAVA**, **JDBC**, and **POSTGRESQL**. It allows users to perform various operations to manage doctor and patient records stored in a PostgreSQL database. The application provides an **intuitive MENU-DRIVEN INTERFACE** for seamless hospital administration.  
 
 ---
