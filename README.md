@@ -46,7 +46,7 @@ This project uses the following Maven dependency:
     <artifactId>postgresql</artifactId>
     <version>42.6.0</version>
 </dependency>
-
+```
 ---
 
 
@@ -81,6 +81,7 @@ CREATE TABLE patient (
     medicine VARCHAR(100),
     FOREIGN KEY (assiDoc) REFERENCES doctor(dName)
 );
+```
 
 ---
 
@@ -94,7 +95,7 @@ com/yash/
 ├── Patient.java            # Model & DAO class for Patient
 ├── Threading.java          # Multithreaded background simulation
 └── App.java                # Main application class (menu-driven UI)
-
+```
 ---
 
 # 🚀 How to run
@@ -111,17 +112,23 @@ private static final String URL = "jdbc:postgresql://localhost:5432/hospitaldb";
 private static final String USER_NAME = "postgres";
 private static final String PASSWD = "your_password";
 Build the project:
+```
 
+---
 ```bash
 Copy
 Edit
 mvn clean install
 Run the application:
+```
+
+---
 
 ```bash
 Copy
 Edit
 java -cp target/hospital-management-system-1.0-SNAPSHOT.jar com.yash.App
+```
 **Use the menu options to manage doctors and patients.**
 
 
