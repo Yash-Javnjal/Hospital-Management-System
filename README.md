@@ -41,7 +41,7 @@ The **HOSPITAL MANAGEMENT SYSTEM** is a **console-based application** built usin
 This project uses the following Maven dependency:  
 
 ```xml
-<!-- Hibernate ORM -->
+<!-- Hibernate JPA -->
 <dependency>
     <groupId>org.hibernate.orm</groupId>
     <artifactId>hibernate-core</artifactId>
@@ -131,21 +131,27 @@ Located at: src/main/resources/META-INF/persistence.xml
              version="3.0">
 
     <persistence-unit name="hospitalPU" transaction-type="RESOURCE_LOCAL">
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         <class>com.yash.entity.Doctor</class>
         <class>com.yash.entity.Patient</class>
 
         <properties>
-            <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/hospitaldb"/>
-            <property name="jakarta.persistence.jdbc.user" value="postgres"/>
-            <property name="jakarta.persistence.jdbc.password" value="your_password"/>
-            <property name="jakarta.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/hospitaldb" />
+            <property name="jakarta.persistence.jdbc.user" value="postgres" />
+            <property name="jakarta.persistence.jdbc.password" value="12345" />
+            <property name="jakarta.persistence.jdbc.driver" value="org.postgresql.Driver" />
 
-            <property name="hibernate.hbm2ddl.auto" value="update"/>
-            <property name="hibernate.show_sql" value="false"/>
-            <property name="hibernate.format_sql" value="true"/>
+            <property name="jakarta.persistence.schema-generation.database.action" value="update"/>
+            <property name="hibernate.show_sql" value="false" />
+            <property name="hibernate.format_sql" value="false" />
+    
+            <property name="hibernate.logging.level" value="OFF"/>
+
         </properties>
     </persistence-unit>
+
 </persistence>
+
 ```
 #  HOW TO RUN
 - **Clone the repo or download the ZIP.**
