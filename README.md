@@ -161,8 +161,9 @@ Located at: src/main/resources/META-INF/persistence.xml
 
    - property: name="jakarta.persistence.jdbc.user" value="postgres"
    - property name="jakarta.persistence.jdbc.password" value="yourpassword"
+
 - **Open terminal and run: mvn clean install**
-Run MenuApp.java
+Run HospitalManagement.java
 
 
 -- -
