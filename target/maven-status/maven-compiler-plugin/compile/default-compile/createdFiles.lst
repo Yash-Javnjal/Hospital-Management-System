@@ -1,0 +1,5 @@
+com\yash\App\Id.class
+com\yash\App\Table.class
+com\yash\App\endt.class
+com\yash\App\HibernateUtil.class
+com\yash\App\TypedQuery.class
