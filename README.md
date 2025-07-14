@@ -108,8 +108,8 @@ com/yash/
 │   ├── Doctor.java           # JPA Entity for Doctor
 │   └── Patient.java          # JPA Entity for Patient
 ├── util/
-│   └── HibernateUtil.java    # Hibernate SessionFactory and EntityManagerFactory setup
-├── HospitalManagement.java   # Main Menu Class
+│   ├── HibernateUtil.java    # Hibernate SessionFactory and EntityManagerFactory setup
+    └── HospitalManagement.java   # Main Menu Class
 └── resources/
     └── META-INF/
         └── persistence.xml   # JPA Configuration
