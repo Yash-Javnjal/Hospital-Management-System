@@ -174,6 +174,4 @@ Run MenuApp.java
 ---
 # Image for Reference!
 
-![hospital](code.png)
-![hospital_Output](op1.png)
-![hospital_Output](op2.png)
+![hospital](hospital.png)
